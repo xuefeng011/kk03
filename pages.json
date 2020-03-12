@@ -1,0 +1,30 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "--"
+		}
+	},
+	{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText": "我的"
+		}
+	}],
+	"globalStyle": {
+		"mp-alipay": {
+			"component": true,
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+			
+		},
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTitleText": "项目",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white",
+		"mp-weixin":{
+		  
+		}
+	}
+}
