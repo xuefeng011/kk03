@@ -3,11 +3,6 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-const KKDBHIS = "kkhis"
-const KKDB = 'kkmas'
-const KKDBLOG = "kklog"
-const KKDBCHART = "kkchart"
-
 import {
 	getDb
 } from '../utils/dbhelper.js'

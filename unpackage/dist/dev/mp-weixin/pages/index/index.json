@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "--",
+  "usingComponents": {
+    "mix-pulldown-refresh": "/components/mix-pulldown-refresh/mix-pulldown-refresh",
+    "mix-item": "/components/mix-item/mix-item",
+    "mix-load-more": "/components/mix-load-more/mix-load-more"
+  }
+}

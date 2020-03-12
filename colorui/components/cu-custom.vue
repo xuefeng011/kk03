@@ -8,9 +8,8 @@
 						<text class="cuIcon-back"></text>
 						<slot name="backText"></slot>
 					</view>
-					<view class="action" @tap="BackHome" v-if="isHome">
-						<text class="cuIcon-home"></text>
-						<slot name="homeText"></slot>
+					<view class="action"  v-if="isHome">
+						<slot name="homeText"><text @tap="BackHome" class="cuIcon-home"></text></slot>
 					</view>
 				</view>
 				<view class="content" :style="[{top:StatusBar + 'px'}]">

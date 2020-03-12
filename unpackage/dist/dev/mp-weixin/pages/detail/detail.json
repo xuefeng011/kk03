@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-pagination": "/components/uni-pagination/uni-pagination",
+    "mix-loading": "/components/mix-loading/mix-loading"
+  }
+}
